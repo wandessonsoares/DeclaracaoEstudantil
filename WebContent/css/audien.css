@@ -1,0 +1,33 @@
+h3{
+	border-bottom: 2px solid #da4f49;
+	border-top: 2px solid #da4f49;
+	border-left: 8px solid #da4f49;
+	padding-left: 2%;
+	border-radius: 5px;
+}
+
+a{
+	color: #D11919	;
+}
+
+a:hover{
+	color: #FF8080;
+}
+
+input[type="text"]:FOCUS, input[type="date"]:FOCUS {
+	border-color: #FF8080;
+}
+
+.container{
+	padding: 2%;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+body{
+	background-color: #E6E6E6;
+}
+
+.navbar-inner{
+	background-color: #000000;
+}
