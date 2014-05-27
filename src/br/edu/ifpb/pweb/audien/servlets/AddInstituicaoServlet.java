@@ -38,6 +38,7 @@ public class AddInstituicaoServlet extends javax.servlet.http.HttpServlet implem
 		
 		em.close();
 		
+		//envia requisição e resposta para o servlet ListaInstituicaoServlet
 		RequestDispatcher d = request.getRequestDispatcher("listainstituicao.do");
 		d.forward(request, response);
 
